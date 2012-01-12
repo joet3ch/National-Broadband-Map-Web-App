@@ -1,4 +1,6 @@
 National Broadband Map Web App
 ==============================
 
-Example mobile applications built using the National Broadband Map API
+Example of how to leverage the National Broadband Map API to build a mobile application.
+
+Live demo available at: http://fcc.github.com/National-Broadband-Map-Web-App/
