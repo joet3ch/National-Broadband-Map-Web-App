@@ -53,7 +53,7 @@ $(document).ready(function() {
 
 		$('#wireless .loader').fadeIn();
 		$.ajax({
-			  url: 'http://www.broadbandmap.gov/broadbandmap/broadband/fall2010/wireless',
+			  url: 'http://www.broadbandmap.gov/broadbandmap/broadband/jun2011/wireless',
 			  dataType: 'jsonp',
 			  data: {format: 'jsonp', latitude: pos.coords.latitude, longitude: pos.coords.longitude},
 			  success: function( data ) { 
@@ -106,7 +106,7 @@ log(data);
 	 */
 	function nationalRank( census ) {
 		$.ajax({
-			  url: 'http://www.broadbandmap.gov/broadbandmap/almanac/fall2010/rankby/nation/population/downloadSpeedGreaterThan3000k/county/id/' + census['fips'],
+			  url: 'http://www.broadbandmap.gov/broadbandmap/almanac/jun2011/rankby/nation/population/downloadSpeedGreaterThan3000k/county/id/' + census['fips'],
 			  dataType: 'jsonp',
 			  data: {format: 'jsonp' },
 			  success: function( data ) { 
